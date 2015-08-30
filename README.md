@@ -3,7 +3,7 @@ Easily adjust the layout of WordPress navigation menus with this menu walker cla
 
 ## Instructions
 
-### \1. Include wp_smart_navwalker.php into functions.php of your theme
+### 1. Include wp_smart_navwalker.php into functions.php of your theme
 
 For example, add this at the end of functions.php:
 
@@ -11,7 +11,7 @@ For example, add this at the end of functions.php:
 require_once "wp_smart_navwalker.php";
 ```
 
-### \2. Output the menu in your theme
+### 2. Output the menu in your theme
 
 For example:
 
