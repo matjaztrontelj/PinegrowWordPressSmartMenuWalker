@@ -3,7 +3,7 @@ Easily adjust the layout of WordPress navigation menus with this menu walker cla
 
 ## Instructions
 
-1. Include wp_smart_navwalker.php into functions.php of your theme
+### \1. Include wp_smart_navwalker.php into functions.php of your theme
 
 For example, add this at the end of functions.php:
 
@@ -11,7 +11,7 @@ For example, add this at the end of functions.php:
 require_once "wp_smart_navwalker.php";
 ```
 
-2. Output the menu in your theme
+### \2. Output the menu in your theme
 
 For example:
 
@@ -36,6 +36,10 @@ The menu item template can contain the following tokens:
 * {ATTRS} - replaced by WP link attributes like href, target, ref and title
 * {TITLE} - replaced by the menu item title
 * {SUB} - optional, tells the walker where to put sub-menu items, default is before the last closing tag of the template
+
+## Build WP themes faster with Pinegrow Web Editor
+
+[Pinegrow](http://pinegrow.com/wordpress-theme-builder.html) is a visual HTML and CSS editor for Mac, Windows and Linux. It also included a WordPress theme builder that includes this smart menu walker. To use it in Pinegrow, just assign the Navigation menu action to the HTML menu element and set the menu type to Smart. Pinegrow will auto-detect the menu item template and items wrap layout and automatically add and setup the menu walker to your theme. [Read more about making navigation menus with Pinegrow](http://docsbeta.pinegrow.com/wordpress-themes/navigation-menus).
 
 ## License
 
